@@ -72,10 +72,10 @@ self.addEventListener('fetch', (event) => {
     }).catch((err) => {
         if (event.request.headers.get('accept').includes('image/*')) {
           
-           return caches.match('/style/plain_sign_in_blue.png')
+           return caches.match('/AWP-U2-P13/style/plain_sign_in_blue.png')
         }
         if (event.request.headers.get('accept').includes('text/html')) {
-            return caches.match('/index.html')
+            return caches.match('/AWP-U2-P13/index.html')
            
          }
         
