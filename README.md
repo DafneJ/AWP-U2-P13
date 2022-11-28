@@ -1,2 +1,4 @@
-# AWP-U2-P13
-pouchDB
+pouchdb-getting-started-todo
+============================
+
+The source repository for the getting started tutorial for PouchDB

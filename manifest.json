@@ -1,0 +1,23 @@
+{
+    "name": "PouchDB",
+    "short_name": "pDB",
+    "description": "The app that helps you find your information!",
+    "background_color": "#5285f4",
+    "theme_color": "#5285f4",
+    "display": "standalone",
+    "lang": "es_ES",
+    "orientation": "portrait",
+    "start_url": "index.html",
+    "icons": [
+        {
+            "src": "style/bg.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "style/plain_sign_in_blue.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        }
+    ]
+}
