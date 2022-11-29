@@ -1,6 +1,12 @@
 (function() {
 
   'use strict';
+  
+  if(navigator.serviceWorker){
+    navigator.serviceWorker.register('/AWP-U2-P13/sw.js').then(function(reg){
+      console.log('Service Worker Registered', reg);
+    });
+  }
 
   var ENTER_KEY = 13;
   var newTodoDom = document.getElementById('new-todo');
