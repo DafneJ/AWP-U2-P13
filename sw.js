@@ -1,7 +1,7 @@
 const STATIC_CACHE_NAME = 'static-cache-v1.4';
 const INMUTABLE_CACHE_NAME = 'inmutable-cache-v1.1';
 const DYNAMIC_CACHE_NAME = 'dynamic-cache-v1.1';
-const ROOT_PATH = "/AWP-U2-P13´;
+const ROOT_PATH = "/AWP-U2-P13";
 
 const cleanCache = (cacheName, limitItems) => {
     caches.open(cacheName).then((cache) => {
